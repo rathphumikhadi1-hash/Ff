@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">VA SOUND</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_equalizer">อีควอไลเซอร์</string>
+    <string name="tab_mixer">มิกเซอร์ &amp; FX</string>
+    <string name="tab_routing">รับเสียง &amp; พรีเซ็ต</string>
+
+    <!-- Header & Controls -->
+    <string name="engine_active">เปิดใช้งาน EQ</string>
+    <string name="engine_bypassed">บายพาส (ปิด)</string>
+    <string name="test_audio_play">ทดสอบเสียง</string>
+    <string name="test_audio_stop">หยุดเสียงทดสอบ</string>
+    <string name="reset_flat">รีเซ็ตแบน</string>
+    <string name="save_preset">บันทึกพรีเซ็ต</string>
+    <string name="eq_mode_10">10-Band Pro</string>
+    <string name="eq_mode_5">5-Band Classic</string>
+
+    <!-- Visualizer Permission -->
+    <string name="visualizer_permission_title">เปิดสเปกตรัมความถี่แบบเรียลไทม์</string>
+    <string name="visualizer_permission_desc">อนุญาตสิทธิ์เข้าถึงเสียงเพื่อแสดงกราฟคลื่นความถี่สดจากแอปเพลงและวิดีโอ</string>
+    <string name="visualizer_permission_btn">เปิดสเปกตรัมสด</string>
+
+    <!-- Mixer & FX -->
+    <string name="mixer_output_meters">มิเตอร์เสียงขาออก (L / R)</string>
+    <string name="fx_preamp">Preamp Gain</string>
+    <string name="fx_bass_boost">Bass Boost</string>
+    <string name="fx_virtualizer">3D Spatializer</string>
+    <string name="fx_loudness">Loudness</string>
+    <string name="fx_dynamics_title">Dynamics &amp; Limiter</string>
+    <string name="fx_compressor">Multi-Band Compressor</string>
+    <string name="fx_compressor_drive">แรงอัด (Drive)</string>
+    <string name="fx_limiter_ceiling">เพดาน Limiter</string>
+    <string name="fx_stereo_mixer_title">Stereo Balance &amp; Room</string>
+    <string name="fx_balance">สมดุลซ้าย-ขวา (Balance)</string>
+    <string name="fx_mono_downmix">รวมเสียงเป็น Mono</string>
+    <string name="fx_reverb">เสียงก้อง (Room Reverb)</string>
+
+    <!-- Routing & Presets -->
+    <string name="routing_bg_service_title">ทำงานเบื้องหลังตลอดเวลา</string>
+    <string name="routing_bg_service_desc">รักษาการปรับ EQ และมิกเซอร์เมื่อสลับไปเปิด Spotify, YouTube, TikTok หรือเกม</string>
+    <string name="routing_auto_attach">จับเซสชันเสียงจากแอปใหม่อัตโนมัติ</string>
+    <string name="routing_active_sessions_title">แหล่งเสียงที่กำลังเล่น / เซสชันเสียง</string>
+    <string name="routing_global_mix">เสียงรวมทั้งเครื่อง (Global Mix)</string>
+    <string name="routing_global_mix_desc">รับเสียงจากทุกแอปที่เล่นผ่านระบบเสียงหลักของมือถือ</string>
+    <string name="routing_presets_title">คลังพรีเซ็ต EQ</string>
+    <string name="routing_hardware_title">ข้อมูลชิปเสียงและ DSP</string>
+
+    <!-- Foreground Service Notification -->
+    <string name="fgs_channel_name">ระบบปรับแต่งเสียง VA SOUND</string>
+    <string name="fgs_channel_desc">แสดงสถานะการทำงานของ EQ และมิกเซอร์เสียงเบื้องหลัง</string>
+    <string name="fgs_notif_title">VA SOUND กำลังทำงาน</string>
+    <string name="fgs_action_toggle">สลับเปิด/ปิด EQ</string>
+</resources>
